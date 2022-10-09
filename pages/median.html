@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, td ,th {border: 1px solid black;}
+        table {border-collapse: collapse;}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>median</title>
+</head>
+<body>
+    <h1>Making use of median in real life</h1>
+    <img src="../images/wallet.jpg" alt="wallet" width="30%" height="auto">
+    <h3>Scenario</h3>
+    <p>
+        In this example, you want to figure out the average money of a student  in their wallet in your classroom. <br>
+        You might be tempted to use the mean to get the average, <strong>however what if one student carries a lot of money</strong>. <br>
+    </p>
+    <p>
+        money (in US dollars) = [100, 150, 90, 87, 110, <strong style="color:red">10000</strong>] <br>
+        Now, let's get the average using the mean. <br>
+        Heads up, this will be incredibly inaccurate! <br>
+        100 + 150 + 90 + 87 + 110 + 10000 = 10,537 <br>
+        10,537 / 6 = <b>$1756.17</b> <br>
+        <strong>So, in this case we use median instead of mean.</strong> 
+    </p>
+    <h3>How to get median</h3>
+    <ol>
+        <li>
+            Sort the values into ascending order. <br>
+            87, 90, 100, 110, 150, 10000
+        </li>
+        <li>
+            Get the middle value, in this case it's values. <br>
+            100 and 110. Add the two middle values and divide it by two. <br>
+            <strong>You get $105.0 which makes sense than $1756.17 right?</strong>
+        </li>
+    </ol>
+    <h3>Relevance to data set</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Mean</th>
+                <th>Median</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The mean is not a robust tool... <br> since it is largely influenced by outliers.</td>
+                <td>The median is better suited for skewed distributions to derive at central tendency... <br> since it is much more robust and sensible.</td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="../index.html">back</a>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, td, th {border: 1px solid black;}
+        table {border-collapse: collapse;}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mode</title>
+</head>
+<body>
+    <h1>Making use of mode in real life</h1>
+    <img src="../images/cars.jpg" alt="cars" width="30%" height="auto">
+    <h3>Scenario</h3>
+    <P>
+        In this example, you want to know the most common car brand in a car museum. <br>
+        Disclaimer, I'm not a car guy. I know little about cars. <br>
+        Car brand is a categorical data type meaning we're not dealing with numbers here. <br>
+        To know which car brand is the most common, you need to count the car brands and get the highest frequency. <br>
+        Car brands = Toyota, Honda, Ford <br>
+        I know the picture doesn't show Toyota, Honda, nor Ford 😂. 
+    </P>
+    <h3>How to get the mode</h3>
+    <ol>
+        <li>
+            Count the cars by brand.
+        </li>
+        <li>
+            <p>Sort the numbers lowest to highest and see which number appears the most often.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>brand</th>
+                        <th>count</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Toyota</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Honda</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Ford</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>total</td>
+                        <td>20</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><b>Mode is 12Toyota</b></p> 
+        </li>
+    </ol>
+    <a href="../index.html">back</a>
+</body>
+</html>
